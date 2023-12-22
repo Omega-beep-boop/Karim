@@ -1,0 +1,34 @@
+body{
+	background: url(videpbg.mp4);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: black;
+}
+#clock{
+	border: 3px solid rgba(27, 198, 228,0.576);
+	border-radius: 20px;
+	background-image: url('../40747290_0.webp');
+    backdrop-filter: blur(10px);
+	box-shadow: 5px 5px 5px rgba(27, 198, 228, 0.576) ;
+	transition: transform 0.3s ease-in-out;
+	line-height: 200px;
+	color: rgb(140, 152, 171);
+	font-family: 'Consolas';
+}
+.content {
+	font-size: 175px;
+	width: 1200px;
+	position: absolute;
+	left: 14%;
+	top: 350px;
+	text-align: center;
+}
+.bg-video {
+	position: absolute;
+	width: 101%;
+	height: 102%;
+	right: 0;
+}
+.content :hover{
+	transform: scale(1.25);
+}
